@@ -1,0 +1,14 @@
+.signIn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+body {
+  background-color: beige;
+  border: none;
+  margin: 0px;
+}
+.input{
+  width: 200px;
+  padding: 100px;
+}

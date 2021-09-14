@@ -1,0 +1,47 @@
+.navBar {
+  display: flex;
+  background-color: #00628b;
+  align-items: center;
+  
+  height: 70px;
+  justify-content: space-between;
+}
+.navitem {
+  justify-content: center;
+  font-family: cursive;
+}
+.nav-link {
+  color: white;
+}
+.navitem:hover {
+  transform: scale(1.2);
+}
+.brand {
+  font-size: 30px;
+  padding-left: 15px;
+}
+.navitem1 {
+  display: flex;
+}
+.navitem2 {
+  padding: 10px;
+}
+.navInput {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.navSubmit {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.navSearch{
+  display: flex;
+}
