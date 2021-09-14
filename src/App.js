@@ -10,7 +10,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Signup from "./components/signUp/index";
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/signin" component={SignIn} />
@@ -18,6 +18,6 @@ export default function App() {
         <Route path="/cart" component={Cart} />
         <Route path="/product/:id" component={Product} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
